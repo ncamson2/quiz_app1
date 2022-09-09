@@ -6,7 +6,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import '../services/auth.dart';
 
 class LoginScreen extends StatelessWidget {
-  const LoginScreen({super.key});
+  const LoginScreen();
 
   @override
   Widget build(BuildContext context) {
@@ -42,7 +42,7 @@ class LoginButton extends StatelessWidget {
   final Function loginMethod;
 
   const LoginButton(
-      {super.key,
+      {
       required this.text,
       required this.icon,
       required this.color,
